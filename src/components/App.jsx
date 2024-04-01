@@ -3,6 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
 import ContactList from './contactList/ContactList';
+import contact from "../contact.json";
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
