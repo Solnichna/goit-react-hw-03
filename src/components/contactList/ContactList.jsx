@@ -1,8 +1,8 @@
-import Contact from './Contact';
+import Contact from '../contact/Contact';
 
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
-    <ul>
+    <ul className="contact-list">
       {contacts.map(contact => (
         <Contact key={contact.id} contact={contact} onDeleteContact={onDeleteContact} />
       ))}

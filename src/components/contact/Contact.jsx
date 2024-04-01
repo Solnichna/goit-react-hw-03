@@ -4,10 +4,10 @@ const Contact = ({ contact, onDeleteContact }) => {
     };
   
     return (
-      <li>
+      <li className="contact">
         <p>Name: {contact.name}</p>
         <p>Number: {contact.number}</p>
-        <button onClick={handleClick}>Delete</button>
+        <button className="contact-delete" onClick={handleClick}>Delete</button>
       </li>
     );
   };

@@ -1,10 +1,12 @@
 @import url("./components/contactForm/ContactForm.module.css");
 @import url("./components/contactList/ContactList.module.css");
 @import url("./components/searchBox/SearchBox.module.css");
+@import url("./components/contact/Contact.module.css");
 
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: rgb(171, 204, 170);
 }
 
 h1,
