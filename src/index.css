@@ -1,0 +1,29 @@
+@import url("./components/contactForm/ContactForm.module.css");
+@import url("./components/contactList/ContactList.module.css");
+@import url("./components/searchBox/SearchBox.module.css");
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

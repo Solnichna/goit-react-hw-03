@@ -1,0 +1,22 @@
+.contact-form {
+    border: 3px solid #da0f0f;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 15px 10px 15px 10px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  
+  .button-add-contact {
+    width: 100px;
+    padding: 5px;
+    
+  }
+
+  .error-form {
+    color: red;
+  }
