@@ -13,22 +13,22 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    localStorage.setItem('contacts', JSON.stringify(contacts));
-  }, [contacts]);
+    localStorage.setItem('contacts', JSON.stringify(contactList)); 
+  }, [contactList]);
 
   const handleSearch = event => {
     setSearchTerm(event.target.value.toLowerCase());
   };
 
   const addContact = newContact => {
-    setContacts([...contacts, newContact]);
+    setContactList([...contactList, newContact]);
   };
-
+  
   const deleteContact = id => {
-    setContacts(contacts.filter(contact => contact.id !== id));
+    setContactList(contactList.filter(contact => contact.id !== id));
   };
 
-  const filteredContacts = contacts.filter(contact =>
+  const filteredContacts = contactList.filter(contact => 
     contact.name.toLowerCase().includes(searchTerm)
   );
 
